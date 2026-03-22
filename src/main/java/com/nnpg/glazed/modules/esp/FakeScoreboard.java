@@ -36,55 +36,55 @@ public class FakeScoreboard extends Module {
 
     private final Setting<String> title = sgStats.add(new StringSetting.Builder()
             .name("title")
-            .defaultValue("Glazed on top")
+            .defaultValue("Donut Smp")
             .onChanged(s -> safeUpdate())
             .build());
 
     private final Setting<String> money = sgStats.add(new StringSetting.Builder()
             .name("money")
-            .defaultValue("67")
+            .defaultValue("40m")
             .onChanged(s -> safeUpdate())
             .build());
 
     private final Setting<String> shards = sgStats.add(new StringSetting.Builder()
             .name("shards")
-            .defaultValue("67")
+            .defaultValue("589")
             .onChanged(s -> safeUpdate())
             .build());
 
     private final Setting<String> kills = sgStats.add(new StringSetting.Builder()
             .name("kills")
-            .defaultValue("67")
+            .defaultValue("10")
             .onChanged(s -> safeUpdate())
             .build());
 
     private final Setting<String> deaths = sgStats.add(new StringSetting.Builder()
             .name("deaths")
-            .defaultValue("67")
+            .defaultValue("12")
             .onChanged(s -> safeUpdate())
             .build());
 
     private final Setting<String> keyall = sgStats.add(new StringSetting.Builder()
             .name("keyall")
-            .defaultValue("67")
+            .defaultValue("59min")
             .onChanged(s -> safeUpdate())
             .build());
 
     private final Setting<String> playtime = sgStats.add(new StringSetting.Builder()
             .name("playtime")
-            .defaultValue("6h 7m")
+            .defaultValue("7d 6h")
             .onChanged(s -> safeUpdate())
             .build());
 
     private final Setting<String> team = sgStats.add(new StringSetting.Builder()
             .name("team")
-            .defaultValue("Glazed on top")
+            .defaultValue("mario")
             .onChanged(s -> safeUpdate())
             .build());
 
     private final Setting<String> footer = sgStats.add(new StringSetting.Builder()
             .name("footer")
-            .defaultValue(" Glazed(67ms)")
+            .defaultValue(" EU West(200ms)")
             .onChanged(s -> safeUpdate())
             .build());
 
